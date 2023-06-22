@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    width: 80%;
+}
+
+main{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+header{
+    background-color: orange;
+}
+
+Header p {
+    color: white;
+}
+
+p{
+    padding: 5px;
+}
+
+/* Utility CSS */
+
+.flex {
+    display: flex;
+}
+
+.f_space_a{
+    display: flex;
+    justify-content: space-around;
+}
+
+.f_center{
+    display: flex;
+    justify-content: center;
+}
+
+.f_column{
+    display: flex;
+    flex-direction: column;
+}
+
+.f_wrap{
+    flex-wrap: wrap;
+}
+
+.f_grap{
+    gra
+}
+
+.p_5{
+    padding: 5px;
+}
+
+.p_top_20{
+    padding-top: 20px;
+}
+
+.text_center{
+    text-align: center;
+}
+
+
+.bg_white{
+    background-color: white;
+}
+
+
+
+
+/* id */
+
+#logo_boolean{
+    width: 20%;
+}
+
+/* Classi Della pagina */
+
+.card_product{
+    width: 30%;
+}
+
+.original_cost{
+    text-decoration: line-through;
+    color: red;
+}
+
+.product_description{
+  /*  box-shadow: 0px -2px 7px 0.5px rgb(211, 211, 211); */
+    font-size: 80%;
+    border: 1px solid rgb(211, 211, 211);
+    padding: 10px;
+}
