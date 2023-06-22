@@ -67,8 +67,12 @@ h4{
     flex-wrap: wrap;
 }
 
-.f_gap{
+.f_gap_20{
     gap: 20px;
+}
+
+.f_gap_10{
+    gap: 10px;
 }
 
 .f_basis{
@@ -130,6 +134,12 @@ h4{
 
 .header_container{
     width: 70%;
+    color: white;
+}
+
+.header_container i {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .footer_container{
